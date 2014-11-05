@@ -1,7 +1,9 @@
 package com.thoughtworks.iamcoach.pos.dao;
 
+import com.thoughtworks.iamcoach.pos.util.CategoryRowMapper;
 import com.thoughtworks.iamcoach.pos.util.ConnectionUtil;
 import com.thoughtworks.iamcoach.pos.vo.Category;
+import org.springframework.jdbc.core.simple.SimpleJdbcTemplate;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -10,29 +12,16 @@ import java.sql.Statement;
 import java.util.List;
 
 public class CategoryDaoImple implements CategoryDao {
-    ConnectionUtil connectionUtil = new ConnectionUtil();
+    private final SimpleJdbcTemplate simpleJdbcTemplate;
+//    ConnectionUtil connectionUtil = new ConnectionUtil();
+    public CategoryDaoImple(SimpleJdbcTemplate simpleJdbcTemplate){
+        this.simpleJdbcTemplate = simpleJdbcTemplate;
+    }
 
     @Override
     public Category getCategoryById(String id) {
-        Category category = null;
-        String sql = "SELECT * FROM categories WHERE id = '"+id+"'";
-        Connection connection = connectionUtil.getConnection();
-        Statement statement = null;
-        ResultSet rs = null;
-
-        try {
-            statement = connection.createStatement();
-            rs = statement.executeQuery(sql);
-            rs.next();
-
-            category = new Category(rs.getString("id"), rs.getString("name"));
-            rs.close();
-            statement.close();
-            connectionUtil.closeConnection();
-        }catch (SQLException e) {
-            e.printStackTrace();
-        }
-        return category;
+        String sql = "SELECT * FROM categories WHERE id = ?";
+        return (Category)simpleJdbcTemplate.queryForObject(sql, new CategoryRowMapper(), id);
     }
 
     @Override
