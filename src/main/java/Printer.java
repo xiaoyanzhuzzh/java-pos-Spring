@@ -5,10 +5,12 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class Printer {
+    private final CategoryService categoryServiceImple;
     public List<CartItem> cartItems = new ArrayList<CartItem>();
 
-    public Printer(Cart cart){
+    public Printer(Cart cart, CategoryService categoryServiceImple){
         this.cartItems = cart.getCartItems();
+        this.categoryServiceImple = categoryServiceImple;
     }
 
     public void printAllInfo(){
@@ -34,7 +36,6 @@ public class Printer {
     }
 
     private Category generateCategory(String id){
-        CategoryService categoryServiceImple = new CategoryServiceImpl();
         return categoryServiceImple.getCategoryById(id);
     }
 
