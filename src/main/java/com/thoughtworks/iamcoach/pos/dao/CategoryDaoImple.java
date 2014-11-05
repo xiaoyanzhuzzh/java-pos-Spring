@@ -13,7 +13,7 @@ import java.util.List;
 
 public class CategoryDaoImple implements CategoryDao {
     private final SimpleJdbcTemplate simpleJdbcTemplate;
-//    ConnectionUtil connectionUtil = new ConnectionUtil();
+
     public CategoryDaoImple(SimpleJdbcTemplate simpleJdbcTemplate){
         this.simpleJdbcTemplate = simpleJdbcTemplate;
     }
