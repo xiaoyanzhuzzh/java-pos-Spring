@@ -131,14 +131,14 @@
       <file leaf-file-name="ItemDaoImple.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/iamcoach/pos/dao/ItemDaoImple.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1978022" vertical-offset="216" max-vertical-offset="684">
-              <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.65384614" vertical-offset="320" max-vertical-offset="702">
+              <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
               <folding>
                 <element signature="e#673#674#0" expanded="true" />
                 <element signature="e#733#734#0" expanded="true" />
-                <marker date="1415194911483" expanded="true" signature="822:859" placeholder="SELECT * FRO..items..." />
-                <marker date="1415194911483" expanded="true" signature="1032:1051" placeholder="SELECT * FRO..items..." />
-                <marker date="1415194911483" expanded="true" signature="1227:1401" placeholder="SELECT promo..promotions..." />
+                <marker date="1415195194655" expanded="true" signature="822:859" placeholder="SELECT * FRO..items..." />
+                <marker date="1415195194655" expanded="true" signature="1032:1051" placeholder="SELECT * FRO..items..." />
+                <marker date="1415195194655" expanded="true" signature="1227:1401" placeholder="SELECT promo..promotions..." />
               </folding>
             </state>
           </provider>
@@ -852,12 +852,12 @@
       <workItem from="1415017705736" duration="3453000" />
       <workItem from="1415098816928" duration="4059000" />
       <workItem from="1415112930751" duration="910000" />
-      <workItem from="1415185217646" duration="9042000" />
+      <workItem from="1415185217646" duration="9325000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34521000" />
+    <option name="totallyTimeSpent" value="34804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="5" width="1360" height="738" extended-state="0" />
@@ -873,7 +873,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0015197569" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33601287" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33601287" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1239,14 +1239,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/iamcoach/pos/dao/ItemDaoImple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1978022" vertical-offset="216" max-vertical-offset="684">
-          <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.65384614" vertical-offset="320" max-vertical-offset="702">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
           <folding>
             <element signature="e#673#674#0" expanded="true" />
             <element signature="e#733#734#0" expanded="true" />
-            <marker date="1415194911483" expanded="true" signature="822:859" placeholder="SELECT * FRO..items..." />
-            <marker date="1415194911483" expanded="true" signature="1032:1051" placeholder="SELECT * FRO..items..." />
-            <marker date="1415194911483" expanded="true" signature="1227:1401" placeholder="SELECT promo..promotions..." />
+            <marker date="1415195194655" expanded="true" signature="822:859" placeholder="SELECT * FRO..items..." />
+            <marker date="1415195194655" expanded="true" signature="1032:1051" placeholder="SELECT * FRO..items..." />
+            <marker date="1415195194655" expanded="true" signature="1227:1401" placeholder="SELECT promo..promotions..." />
           </folding>
         </state>
       </provider>
