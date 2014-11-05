@@ -3,6 +3,10 @@
     <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
       <pattern>
         <option name="PATTERN" value="foo.bar.*" />
+        <option name="ENABLED" value="false" />
+      </pattern>
+      <pattern>
+        <option name="PATTERN" value="com.*" />
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>
@@ -23,7 +27,9 @@
     </option>
     <envs />
     <patterns />
+    <RunnerSettings RunnerId="Cover" />
     <RunnerSettings RunnerId="Run" />
+    <ConfigurationWrapper RunnerId="Cover" />
     <ConfigurationWrapper RunnerId="Run" />
     <method />
   </configuration>
