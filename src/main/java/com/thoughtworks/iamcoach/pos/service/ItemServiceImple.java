@@ -6,20 +6,23 @@ import com.thoughtworks.iamcoach.pos.vo.*;
 import java.util.List;
 
 public class ItemServiceImple implements ItemService {
-    ItemDao itemDao = new ItemDaoImple();
+    private final ItemDao itemDaoImple;
+    public ItemServiceImple(ItemDao itemDaoImple){
+        this.itemDaoImple = itemDaoImple;
+    }
 
     @Override
     public Item getItemByBarcode(String barcode) {
-        return itemDao.getItemByBarcode(barcode);
+        return itemDaoImple.getItemByBarcode(barcode);
     }
 
     @Override
     public List<Item> getItems() {
-        return itemDao.getItems();
+        return itemDaoImple.getItems();
     }
 
     @Override
     public List<Promotion> getPromotionsByItemId(String id) {
-        return itemDao.getPromotionsByItemId(id);
+        return itemDaoImple.getPromotionsByItemId(id);
     }
 }
