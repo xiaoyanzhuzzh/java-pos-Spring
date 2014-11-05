@@ -1,7 +1,17 @@
 package com.thoughtworks.iamcoach.pos.util;
 
-/**
- * Created by zhangzhihui on 14-11-5.
- */
-public class CategoryRowMapper  {
+
+import com.thoughtworks.iamcoach.pos.vo.Category;
+import org.springframework.jdbc.core.RowMapper;
+
+import java.sql.*;
+
+public class CategoryRowMapper implements RowMapper {
+    @Override
+    public Object mapRow(ResultSet resultSet, int i) throws SQLException {
+        Category category = new Category();
+        category.setId(resultSet.getString("id"));
+        category.setName(resultSet.getString("name"));
+        return category;
+    }
 }
