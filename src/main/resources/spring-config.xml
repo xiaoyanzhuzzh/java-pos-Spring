@@ -15,6 +15,18 @@
     <bean id="simpleJdbcTemplate" class="org.springframework.jdbc.core.simple.SimpleJdbcTemplate">
         <constructor-arg ref="dataSource"/>
     </bean>
+    <bean id="itemDaoImple" class="com.thoughtworks.iamcoach.pos.dao.ItemDaoImple">
+        <constructor-arg ref="simpleJdbcTemplate"></constructor-arg>
+    </bean>
+    <bean id="itemServiceImple" class="com.thoughtworks.iamcoach.pos.service.ItemServiceImple">
+        <constructor-arg ref="itemDaoImple"></constructor-arg>
+    </bean>
+    <bean id="categoryDaoImple" class="com.thoughtworks.iamcoach.pos.dao.CategoryDaoImple">
+        <constructor-arg ref="simpleJdbcTemplate"></constructor-arg>
+    </bean>
+    <bean id="categoryServiceImple" class="com.thoughtworks.iamcoach.pos.service.CategoryServiceImpl">
+        <constructor-arg ref="categoryDaoImple"></constructor-arg>
+    </bean>
 
 
 </beans>
