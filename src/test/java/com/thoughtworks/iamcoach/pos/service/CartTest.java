@@ -22,8 +22,6 @@ public class CartTest {
 
     @Test
     public void can_get_CartItems_test(){
-//        Scanner scanner = new Scanner();
-//        ItemService itemServiceImple = new ItemServiceImple();
         Scanner scanner = mock(Scanner.class);
         List<String> inputs = new ArrayList<String>();
         inputs.add("ITEM000001");
