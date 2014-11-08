@@ -1,19 +1,13 @@
 package com.thoughtworks.iamcoach.pos.dao;
 
-import com.thoughtworks.iamcoach.pos.util.ConnectionUtil;
-import com.thoughtworks.iamcoach.pos.util.ItemRowMapper;
-import com.thoughtworks.iamcoach.pos.util.PomotionRowMapper;
+import com.thoughtworks.iamcoach.pos.util.*;
 import com.thoughtworks.iamcoach.pos.vo.*;
 import org.springframework.jdbc.core.simple.SimpleJdbcTemplate;
 
-import java.sql.*;
 import java.util.*;
 
 public class ItemDaoImpl implements ItemDao {
 
-//    ConnectionUtil connectionUtil = new ConnectionUtil();
-//    private PreparedStatement prepareStatement = null;
-//    private ResultSet rs = null;
     SimpleJdbcTemplate simpleJdbcTemplate;
     public ItemDaoImpl(SimpleJdbcTemplate simpleJdbcTemplate){
         this.simpleJdbcTemplate = simpleJdbcTemplate;

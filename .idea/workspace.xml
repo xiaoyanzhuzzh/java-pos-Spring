@@ -51,14 +51,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CategoryDaoImpl.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CategoryDaoImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/iamcoach/pos/dao/CategoryDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1930295" vertical-offset="36" max-vertical-offset="504">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="504">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <marker date="1415413269889" expanded="true" signature="545:582" placeholder="SELECT * FRO..categories..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/iamcoach/pos/dao/ItemDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemDaoImpl.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/iamcoach/pos/dao/ItemDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8203753" vertical-offset="0" max-vertical-offset="684">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1415413342469" expanded="true" signature="518:555" placeholder="SELECT * FRO..items..." />
+                <marker date="1415413342469" expanded="true" signature="728:747" placeholder="SELECT * FRO..items..." />
+                <marker date="1415413342469" expanded="true" signature="923:1097" placeholder="SELECT promo..promotions..." />
               </folding>
             </state>
           </provider>
@@ -114,6 +141,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/iamcoach/pos/service/CategoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/iamcoach/pos/dao/CategoryDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/iamcoach/pos/dao/CategoryDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/iamcoach/pos/dao/ItemDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/iamcoach/pos/dao/ItemDao.java" />
       </list>
     </option>
   </component>
@@ -684,12 +713,12 @@
       <workItem from="1415098816928" duration="4059000" />
       <workItem from="1415112930751" duration="910000" />
       <workItem from="1415185217646" duration="9780000" />
-      <workItem from="1415407298228" duration="5863000" />
+      <workItem from="1415407298228" duration="5942000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41122000" />
+    <option name="totallyTimeSpent" value="41201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="5" width="1360" height="738" extended-state="0" />
@@ -977,17 +1006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/iamcoach/pos/dao/ItemDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1978022" vertical-offset="158" max-vertical-offset="702">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="e#671#672#0" expanded="false" />
-            <element signature="e#731#732#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/iamcoach/pos/vo/ItemTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
@@ -1088,11 +1106,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/iamcoach/pos/dao/CategoryDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1930295" vertical-offset="36" max-vertical-offset="504">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="504">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1415413269889" expanded="true" signature="545:582" placeholder="SELECT * FRO..categories..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/iamcoach/pos/dao/ItemDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/iamcoach/pos/dao/ItemDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8203753" vertical-offset="0" max-vertical-offset="684">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1415413342469" expanded="true" signature="518:555" placeholder="SELECT * FRO..items..." />
+            <marker date="1415413342469" expanded="true" signature="728:747" placeholder="SELECT * FRO..items..." />
+            <marker date="1415413342469" expanded="true" signature="923:1097" placeholder="SELECT promo..promotions..." />
           </folding>
         </state>
       </provider>
