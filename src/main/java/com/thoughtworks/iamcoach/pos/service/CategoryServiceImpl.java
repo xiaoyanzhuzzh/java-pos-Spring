@@ -3,18 +3,16 @@ package com.thoughtworks.iamcoach.pos.service;
 import com.thoughtworks.iamcoach.pos.dao.*;
 import com.thoughtworks.iamcoach.pos.vo.Category;
 
-import java.util.List;
-
 public class CategoryServiceImpl implements CategoryService{
-    private CategoryDao categoryDaoImple;
+    private CategoryDao categoryDaoImpl;
 
-    public CategoryServiceImpl(CategoryDao categoryDaoImple){
-        this.categoryDaoImple = categoryDaoImple;
+    public CategoryServiceImpl(CategoryDao categoryDaoImpl){
+        this.categoryDaoImpl = categoryDaoImpl;
     }
 
     @Override
     public Category getCategoryById(String id) {
-        return categoryDaoImple.getCategoryById(id);
+        return categoryDaoImpl.getCategoryById(id);
     }
 
 //    @Override

@@ -15,10 +15,10 @@
     <bean id="simpleJdbcTemplate" class="org.springframework.jdbc.core.simple.SimpleJdbcTemplate">
         <constructor-arg ref="dataSource"/>
     </bean>
-    <bean id="itemDaoImpl" class="com.thoughtworks.iamcoach.pos.dao.ItemDaoImple">
+    <bean id="itemDaoImpl" class="com.thoughtworks.iamcoach.pos.dao.ItemDaoImpl">
         <constructor-arg ref="simpleJdbcTemplate"/>
     </bean>
-    <bean id="itemServiceImpl" class="com.thoughtworks.iamcoach.pos.service.ItemServiceImple">
+    <bean id="itemServiceImpl" class="com.thoughtworks.iamcoach.pos.service.ItemServiceImpl">
         <constructor-arg ref="itemDaoImpl"/>
     </bean>
     <bean id="scanner" class="com.thoughtworks.iamcoach.pos.service.Scanner">
@@ -27,7 +27,7 @@
         <constructor-arg ref="itemServiceImpl"/>
         <constructor-arg ref="scanner"/>
     </bean>
-    <bean id="categoryDaoImpl" class="com.thoughtworks.iamcoach.pos.dao.CategoryDaoImple">
+    <bean id="categoryDaoImpl" class="com.thoughtworks.iamcoach.pos.dao.CategoryDaoImpl">
         <constructor-arg ref="simpleJdbcTemplate"/>
     </bean>
     <bean id="categoryServiceImpl" class="com.thoughtworks.iamcoach.pos.service.CategoryServiceImpl">
