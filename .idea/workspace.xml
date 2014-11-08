@@ -110,8 +110,8 @@
       <file leaf-file-name="CategoryRowMapper.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/iamcoach/pos/util/CategoryRowMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55494505" vertical-offset="50" max-vertical-offset="414">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+              <caret line="0" column="43" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,7 +163,6 @@
         <option value="$PROJECT_DIR$/src/main/java/foo/dao/ItemImpl.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/foo/bar/SpringAppTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/iamcoach/pos/util/CategoryRowMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/Printer.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/iamcoach/pos/dao/CategoryDaoImple.java" />
@@ -183,6 +182,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/iamcoach/pos/dao/ItemDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/iamcoach/pos/dao/ItemDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/iamcoach/pos/service/ItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/iamcoach/pos/util/CategoryRowMapper.java" />
       </list>
     </option>
   </component>
@@ -783,16 +783,16 @@
       <workItem from="1415098816928" duration="4059000" />
       <workItem from="1415112930751" duration="910000" />
       <workItem from="1415185217646" duration="9780000" />
-      <workItem from="1415407298228" duration="6081000" />
+      <workItem from="1415407298228" duration="6135000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41340000" />
+    <option name="totallyTimeSpent" value="41394000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="5" width="1360" height="738" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -1202,20 +1202,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/iamcoach/pos/util/CategoryRowMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/iamcoach/pos/util/ItemRowMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55494505" vertical-offset="50" max-vertical-offset="414">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="486">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/iamcoach/pos/util/ItemRowMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/iamcoach/pos/util/CategoryRowMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="486">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+          <caret line="0" column="43" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,6 +1,5 @@
 package com.thoughtworks.iamcoach.pos.util;
 
-
 import com.thoughtworks.iamcoach.pos.vo.Category;
 import org.springframework.jdbc.core.RowMapper;
 
