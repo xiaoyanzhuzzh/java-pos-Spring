@@ -6,9 +6,9 @@ import com.thoughtworks.iamcoach.pos.vo.*;
 import java.util.List;
 
 public class ItemServiceImpl implements ItemService {
-    private final ItemDao itemDaoImple;
+    private final ItemDao itemDaoImpl;
     public ItemServiceImpl(ItemDao itemDaoImple){
-        this.itemDaoImple = itemDaoImple;
+        this.itemDaoImpl = itemDaoImple;
     }
 
 //    @Override
@@ -18,11 +18,11 @@ public class ItemServiceImpl implements ItemService {
 
     @Override
     public List<Item> getItems() {
-        return itemDaoImple.getItems();
+        return itemDaoImpl.getItems();
     }
 
     @Override
     public List<Promotion> getPromotionsByItemId(String id) {
-        return itemDaoImple.getPromotionsByItemId(id);
+        return itemDaoImpl.getPromotionsByItemId(id);
     }
 }
