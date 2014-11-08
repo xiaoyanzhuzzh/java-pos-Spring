@@ -27,7 +27,7 @@
         <constructor-arg ref="itemServiceImpl"/>
         <constructor-arg ref="scanner"/>
     </bean>
-    <bean id="categoryDaoImpl" class="com.thoughtworks.iamcoach.pos.dao.CategoryDaoImple">
+    <bean id="categoryDaoImpl" class="com.thoughtworks.iamcoach.pos.dao.CategoryDaoImpl">
         <constructor-arg ref="simpleJdbcTemplate"/>
     </bean>
     <bean id="categoryServiceImpl" class="com.thoughtworks.iamcoach.pos.service.CategoryServiceImpl">

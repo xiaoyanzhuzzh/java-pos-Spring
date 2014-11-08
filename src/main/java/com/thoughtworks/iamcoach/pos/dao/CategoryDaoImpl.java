@@ -11,10 +11,10 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.List;
 
-public class CategoryDaoImple implements CategoryDao {
+public class CategoryDaoImpl implements CategoryDao {
     private final SimpleJdbcTemplate simpleJdbcTemplate;
 
-    public CategoryDaoImple(SimpleJdbcTemplate simpleJdbcTemplate){
+    public CategoryDaoImpl(SimpleJdbcTemplate simpleJdbcTemplate){
         this.simpleJdbcTemplate = simpleJdbcTemplate;
     }
 
