@@ -24,8 +24,8 @@ public class CategoryDaoImpl implements CategoryDao {
         return (Category)simpleJdbcTemplate.queryForObject(sql, new CategoryRowMapper(), id);
     }
 
-    @Override
-    public List<Category> getCategories() {
-        return null;
-    }
+//    @Override
+//    public List<Category> getCategories() {
+//        return null;
+//    }
 }
