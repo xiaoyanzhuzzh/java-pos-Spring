@@ -18,7 +18,7 @@
     <bean id="itemDaoImpl" class="com.thoughtworks.iamcoach.pos.dao.ItemDaoImpl">
         <constructor-arg ref="simpleJdbcTemplate"/>
     </bean>
-    <bean id="itemServiceImpl" class="com.thoughtworks.iamcoach.pos.service.ItemServiceImple">
+    <bean id="itemServiceImpl" class="com.thoughtworks.iamcoach.pos.service.ItemServiceImpl">
         <constructor-arg ref="itemDaoImpl"/>
     </bean>
     <bean id="scanner" class="com.thoughtworks.iamcoach.pos.service.Scanner">

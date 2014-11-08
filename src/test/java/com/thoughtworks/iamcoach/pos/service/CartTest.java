@@ -17,7 +17,7 @@ public class CartTest {
     @Before
     public void before(){
         scanner = mock(Scanner.class);
-        itemServiceImple = mock(ItemServiceImple.class);
+        itemServiceImple = mock(ItemServiceImpl.class);
     }
 
     @Test
@@ -35,7 +35,7 @@ public class CartTest {
         inputs.add("ITEM000005");
 
         when(scanner.getInputs()).thenReturn(inputs);
-        ItemService itemServiceImple = mock(ItemServiceImple.class);
+        ItemService itemServiceImple = mock(ItemServiceImpl.class);
         List<Item> items = new ArrayList<Item>();
         items.add(new Item("1","ITEM000001", "葡萄", "斤", 6.5, "水果"));
         items.add(new Item("2","ITEM000002", "橙汁", "瓶", 3.5, "饮品"));

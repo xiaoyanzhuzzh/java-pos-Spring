@@ -5,9 +5,9 @@ import com.thoughtworks.iamcoach.pos.vo.*;
 
 import java.util.List;
 
-public class ItemServiceImple implements ItemService {
+public class ItemServiceImpl implements ItemService {
     private final ItemDao itemDaoImple;
-    public ItemServiceImple(ItemDao itemDaoImple){
+    public ItemServiceImpl(ItemDao itemDaoImple){
         this.itemDaoImple = itemDaoImple;
     }
 
