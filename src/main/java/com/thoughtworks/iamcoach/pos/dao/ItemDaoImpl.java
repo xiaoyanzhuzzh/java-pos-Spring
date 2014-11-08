@@ -29,6 +29,6 @@ public class ItemDaoImpl implements ItemDao {
     public List<Promotion> getPromotionsByItemId(String id) {
         String sql = "SELECT promotions.*, items_promotions.discount FROM promotions, items_promotions " +
                 "WHERE items_promotions.itemId=? AND promotions.id=items_promotions.proId";
-        return (List<Promotion>) simpleJdbcTemplate.query(sql, new PomotionRowMapper(), id);
+        return (List<Promotion>) simpleJdbcTemplate.query(sql, new PromotionRowMapper(), id);
     }
 }
