@@ -6,23 +6,23 @@ import java.util.*;
 
 public class Cart {
     private List<String> inputs;
-    private ItemService itemServiceImple;
+    private ItemService itemServiceImpl;
 
-    public Cart(Scanner scanner, ItemService itemServiceImple){
+    public Cart(Scanner scanner, ItemService itemServiceImpl){
         this.inputs = scanner.getInputs();
-        this.itemServiceImple = itemServiceImple;
+        this.itemServiceImpl = itemServiceImpl;
     }
 
     public List<CartItem> getCartItems() {
         List<CartItem> cartItems = new ArrayList<CartItem>();
 
-        List<Item> items = itemServiceImple.getItems();
+        List<Item> items = itemServiceImpl.getItems();
 
         double[] numbers = getNumbers(items);
 
         for(int i=0; i<numbers.length; i++){
             if(numbers[i] != 0){
-                items.get(i).setPromotionList(itemServiceImple.getPromotionsByItemId((items.get(i).getId())));
+                items.get(i).setPromotionList(itemServiceImpl.getPromotionsByItemId((items.get(i).getId())));
                 cartItems.add(new CartItem(items.get(i), numbers[i]));
             }
         }
