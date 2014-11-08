@@ -11,10 +11,10 @@ public class ItemServiceImple implements ItemService {
         this.itemDaoImple = itemDaoImple;
     }
 
-    @Override
-    public Item getItemByBarcode(String barcode) {
-        return itemDaoImple.getItemByBarcode(barcode);
-    }
+//    @Override
+//    public Item getItemByBarcode(String barcode) {
+//        return itemDaoImple.getItemByBarcode(barcode);
+//    }
 
     @Override
     public List<Item> getItems() {
