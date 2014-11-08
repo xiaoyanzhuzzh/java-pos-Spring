@@ -12,21 +12,15 @@ public class App {
 
     public static void main(String[] args){
         ApplicationContext context = new ClassPathXmlApplicationContext("spring-config.xml");
-        SimpleJdbcTemplate simpleJdbcTemplate = (SimpleJdbcTemplate)context.getBean("simpleJdbcTemplate");
 
-//        ItemDao itemDaoImple = new ItemDaoImple(simpleJdbcTemplate);
-//        ItemService itemServiceImple = new ItemServiceImple(itemDaoImple);
-        ItemDao itemDaoImple = (ItemDao) context.getBean("itemDaoImple");
         ItemService itemServiceImple = (ItemService) context.getBean("itemServiceImple");
 
-        Scanner scanner = new Scanner();
+        Scanner scanner = (Scanner) context.getBean("scanner");
+//        Scanner scanner = new Scanner();
         Cart cart = new Cart(scanner, itemServiceImple);
 
-//        CategoryDao categoryDaoImple = new CategoryDaoImple(simpleJdbcTemplate);
-        CategoryDao categoryDaoImple = (CategoryDaoImple) context.getBean("categoryDaoImple");
         CategoryService categoryServiceImple = (CategoryServiceImpl) context.getBean("categoryServiceImple");
 
-//        CategoryService categoryServiceImple = new CategoryServiceImpl(categoryDaoImple);
         Printer printer = new Printer(cart, categoryServiceImple );
         printer.printAllInfo();
     }
