@@ -9,13 +9,13 @@ import org.springframework.jdbc.core.simple.SimpleJdbcTemplate;
 import java.sql.*;
 import java.util.*;
 
-public class ItemDaoImple implements ItemDao {
+public class ItemDaoImpl implements ItemDao {
 
 //    ConnectionUtil connectionUtil = new ConnectionUtil();
 //    private PreparedStatement prepareStatement = null;
 //    private ResultSet rs = null;
     SimpleJdbcTemplate simpleJdbcTemplate;
-    public ItemDaoImple(SimpleJdbcTemplate simpleJdbcTemplate){
+    public ItemDaoImpl(SimpleJdbcTemplate simpleJdbcTemplate){
         this.simpleJdbcTemplate = simpleJdbcTemplate;
     }
 

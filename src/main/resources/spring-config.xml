@@ -15,7 +15,7 @@
     <bean id="simpleJdbcTemplate" class="org.springframework.jdbc.core.simple.SimpleJdbcTemplate">
         <constructor-arg ref="dataSource"/>
     </bean>
-    <bean id="itemDaoImpl" class="com.thoughtworks.iamcoach.pos.dao.ItemDaoImple">
+    <bean id="itemDaoImpl" class="com.thoughtworks.iamcoach.pos.dao.ItemDaoImpl">
         <constructor-arg ref="simpleJdbcTemplate"/>
     </bean>
     <bean id="itemServiceImpl" class="com.thoughtworks.iamcoach.pos.service.ItemServiceImple">
