@@ -15,24 +15,28 @@
     <bean id="simpleJdbcTemplate" class="org.springframework.jdbc.core.simple.SimpleJdbcTemplate">
         <constructor-arg ref="dataSource"/>
     </bean>
-    <bean id="itemDaoImple" class="com.thoughtworks.iamcoach.pos.dao.ItemDaoImple">
+    <bean id="itemDaoImpl" class="com.thoughtworks.iamcoach.pos.dao.ItemDaoImple">
         <constructor-arg ref="simpleJdbcTemplate"/>
     </bean>
-    <bean id="itemServiceImple" class="com.thoughtworks.iamcoach.pos.service.ItemServiceImple">
-        <constructor-arg ref="itemDaoImple"/>
+    <bean id="itemServiceImpl" class="com.thoughtworks.iamcoach.pos.service.ItemServiceImple">
+        <constructor-arg ref="itemDaoImpl"/>
     </bean>
     <bean id="scanner" class="com.thoughtworks.iamcoach.pos.service.Scanner">
     </bean>
     <bean id="cart" class="com.thoughtworks.iamcoach.pos.service.Cart">
-        <constructor-arg ref="itemServiceImple"/>
+        <constructor-arg ref="itemServiceImpl"/>
         <constructor-arg ref="scanner"/>
     </bean>
-    <bean id="categoryDaoImple" class="com.thoughtworks.iamcoach.pos.dao.CategoryDaoImple">
+    <bean id="categoryDaoImpl" class="com.thoughtworks.iamcoach.pos.dao.CategoryDaoImple">
         <constructor-arg ref="simpleJdbcTemplate"/>
     </bean>
-    <bean id="categoryServiceImple" class="com.thoughtworks.iamcoach.pos.service.CategoryServiceImpl">
-        <constructor-arg ref="categoryDaoImple"/>
+    <bean id="categoryServiceImpl" class="com.thoughtworks.iamcoach.pos.service.CategoryServiceImpl">
+        <constructor-arg ref="categoryDaoImpl"/>
     </bean>
 
+    <bean id="printer" class="Printer">
+        <constructor-arg ref="cart"/>
+        <constructor-arg ref="categoryServiceImpl"/>
+    </bean>
 
 </beans>
