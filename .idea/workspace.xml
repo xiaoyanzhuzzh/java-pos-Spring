@@ -134,11 +134,10 @@
       <file leaf-file-name="PromotionRowMapper.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/iamcoach/pos/util/PromotionRowMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4945055" vertical-offset="0" max-vertical-offset="364">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.34615386" vertical-offset="0" max-vertical-offset="432">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -808,12 +807,12 @@
       <workItem from="1415098816928" duration="4059000" />
       <workItem from="1415112930751" duration="910000" />
       <workItem from="1415185217646" duration="9780000" />
-      <workItem from="1415407298228" duration="6393000" />
+      <workItem from="1415407298228" duration="6605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41652000" />
+    <option name="totallyTimeSpent" value="41864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="5" width="1360" height="738" extended-state="0" />
@@ -1250,11 +1249,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/iamcoach/pos/util/PromotionRowMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4945055" vertical-offset="0" max-vertical-offset="364">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.34615386" vertical-offset="0" max-vertical-offset="432">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
           </folding>
         </state>
       </provider>
