@@ -7,8 +7,8 @@ import java.util.List;
 
 public class ItemServiceImpl implements ItemService {
     private final ItemDao itemDaoImpl;
-    public ItemServiceImpl(ItemDao itemDaoImple){
-        this.itemDaoImpl = itemDaoImple;
+    public ItemServiceImpl(ItemDao itemDaoImpl){
+        this.itemDaoImpl = itemDaoImpl;
     }
 
 //    @Override
